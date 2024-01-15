@@ -59,3 +59,11 @@ From Docker container
 ```bash
   http://localhost:80
 ```
+
+## Run tests
+
+
+```bash
+  npm run test
+```
+
