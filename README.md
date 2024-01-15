@@ -1,18 +1,61 @@
+# FLANKS FRONTEND CODE
+
+Coding test
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+## Run Locally
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Clone the project
 
-## Type Support For `.vue` Imports in TS
+```bash
+  git clone https://github.com/jtejederabit/FLNKS-FRONTEND
+```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Go to the project directory
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+```bash
+  cd FLNKS-FRONTEND
+```
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server in dev mode
+
+```bash
+  npm run dev
+```
+
+Build the project
+
+```bash
+  npm run build
+```
+
+## Deployment
+
+To deploy this project with Docker
+
+```bash
+  docker-compose up --build
+```
+
+## Base URL
+
+In Dev mode
+
+```bash
+  http://localhost:5173
+```
+
+From Docker container
+
+```bash
+  http://localhost:80
+```
