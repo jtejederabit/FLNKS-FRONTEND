@@ -1,4 +1,4 @@
-# FLANKS FRONTEND CODE
+# FRONTEND CODE
 
 Coding test
 
